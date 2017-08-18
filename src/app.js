@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import Zones from './components/Zones';
 
 class App extends Component {
   render() {
     return (
       <div>
-        Hello, React!
+        Hello, React! How are you today!
+        <Zones/>
       </div>
     );
   }

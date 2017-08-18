@@ -1,5 +1,5 @@
-# Run Node Server
+# Run Server
 npm start
 
-# Run React
+# Build React
 webpack -w

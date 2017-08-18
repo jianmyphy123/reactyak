@@ -6,12 +6,11 @@ class Zone extends Component {
 
 
   render() {
-    const style = styles.zone;
-
+    
     return (
-      <div style={style.container}>
-        <h2 style={style.header}>
-          <a style={style.title} href="#">{this.props.currentZone.name}
+      <div style={styles.zone.container}>
+        <h2 style={styles.zone.header}>
+          <a style={styles.zone.title} href="#">{this.props.currentZone.name}
           </a>
         </h2>
         <span className="detail">{this.props.currentZone.zipCode}</span><br/>

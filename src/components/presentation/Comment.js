@@ -13,6 +13,8 @@ class Comment extends Component {
         <span style={{fontWeight: 200, marginLeft: 12, marginRight: 12}}>|</span>
         <span style={{fontWeight: 200}}>{this.props.currentComment.timestamp}</span>
 
+        <hr />
+
       </div>
     );
   }

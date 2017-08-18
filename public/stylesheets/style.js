@@ -18,6 +18,6 @@ export default StyleSheet.create({
     },
     "detail": {
         "font": 12,
-        "color": "blue"
+        "color": "#777"
     }
 });

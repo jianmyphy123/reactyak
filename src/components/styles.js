@@ -2,6 +2,16 @@ export default {
   universal: {
 
   },
+  comment: {
+    commentBox: {
+      padding: 12,
+      background: '#f9f9f9',
+      border: '1px solid #ddd'
+    },
+    commentList: {
+      listStyleType: 'none'
+    }
+  },
   zone: {
     container: {
       padding: 16,
